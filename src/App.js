@@ -1,13 +1,24 @@
 import './css/App.css';
-import logo from './assets/placeholder.png'
 import React, { useLayoutEffect, useState } from 'react';
 import Footer from './components/Footer';
 
+//Assets
+import logo from './assets/logo.png';
+import banner from './assets/banner-plain.png';
+import intro from './assets/intro.png'
+import buttonHome from './assets/header-buttons/HOME.png';
+import buttonLinks from './assets/header-buttons/LINKS.png';
+import buttonPhotos from './assets/header-buttons/PHOTOS.png';
+import buttonWebdev from './assets/header-buttons/WEBDEV.png';
+import buttonGFX from './assets/header-buttons/GFX.png';
+
+// Pages
 import Home from './pages/Home';
 import GFX from './pages/GFX';
 import Photos from './pages/Photos';
 import Webdev from './pages/Webdev';
 import Links from './pages/Links';
+import ErrorPage from './pages/404';
 
 import {
   BrowserRouter as Router,
@@ -46,14 +57,30 @@ const App = () => {
     return (
       <div className="App">
         <div className="header">
-          <img src={logo}/>
+          <img className="header-logo" src={logo}/>
           
           <div className="header-inner">
-            <a href="/home">HOME</a>
-            <a href="/gfx">GFX</a>
-            <a href="/photos">PHOTOS</a>
-            <a href="/webdev">WEBDEV</a>
-            <a href="/links">LINKS</a>
+
+            <a className="header-button" href="/home">
+              <img className="h-button" src={buttonHome} alt="home"></img>
+            </a>
+
+            <a className="header-button" href="gfx">
+              <img className="h-button" src={buttonGFX} alt="GFX"></img>
+            </a>
+
+            <a className="header-button" href="photos">
+              <img className="h-button" src={buttonPhotos} alt="Photos"></img>
+            </a>
+
+            <a className="header-button" href="webdev">
+              <img className="h-button" src={buttonWebdev} alt="webdev"></img>
+            </a>
+
+            <a className="header-button" href="links">
+             <img className="h-button" src={buttonLinks} alt="links"></img>
+            </a>
+            
           </div>
         </div>
 
@@ -67,6 +94,7 @@ const App = () => {
             <Route path="/photography" element={<Photos />} />
             <Route path="/webdev" element={<Webdev />} />
             <Route path="/links" element={<Links />} />
+            <Route path="*" element={<ErrorPage />} />
           </Routes>
         </Router>
 
@@ -102,6 +130,7 @@ const App = () => {
               <Route path="/photography" element={<Photos />} />
               <Route path="/webdev" element={<Webdev />} />
               <Route path="/links" element={<Links />} />
+              <Route path="*" element={<ErrorPage />} />
             </Routes>
           </Router>
 
@@ -113,13 +142,27 @@ const App = () => {
         <div className="App">
           <div className="header-expanded">
             <div className="mini-inner">
-              <img src={logo}/>
+              <img className="mini-logo" src={logo}/>
 
-              <a href="/home">HOME</a>
-              <a href="/gfx">GFX</a>
-              <a href="/photos">PHOTOS</a>
-              <a href="/webdev">WEBDEV</a>
-              <a href="/links">LINKS</a>
+              <a className="mini-button" href="/home">
+                <img className="mh-button" src={buttonHome} alt="home"></img>
+              </a>
+
+              <a className="mini-button" href="gfx">
+                <img className="mh-button" src={buttonGFX} alt="GFX"></img>
+              </a>
+
+              <a className="mini-button" href="photos">
+                <img className="mh-button" src={buttonPhotos} alt="Photos"></img>
+              </a>
+
+              <a className="mini-button" href="webdev">
+                <img className="mh-button" src={buttonWebdev} alt="webdev"></img>
+              </a>
+
+              <a className="mini-button" href="links">
+              <img className="mh-button" src={buttonLinks} alt="links"></img>
+              </a>
 
               <div className="x-button">
                 <button onClick={() => openMenu()}>X</button>

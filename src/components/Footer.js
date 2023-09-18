@@ -1,11 +1,16 @@
 import '../css/footer.css';
-import logo from '../assets/placeholder.png';
+import logo from '../assets/logo.png';
 
 const Footer = () => {
     return (
         <div className="footer">
             <img src={logo}/>
-            <h>&#169; zuofx 2023</h>
+            <p className="copyright">
+                &#169;
+            </p>
+            <p className="txt">
+                zuofx 2023
+            </p>
         </div>
     );
 }

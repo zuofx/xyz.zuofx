@@ -1,5 +1,15 @@
 .GFX {
     width: 100%;
     height: 50px;
-    background-color: red;
+}
+.WIP {
+    margin: 0 auto;
+    margin-top: 150px;
+    color: rgb(253, 244, 255);
+    font-size: 8vw;
+}
+.WIP2 {
+    margin-top: 0 auto;
+    font-size: 2vw;
+    color: rgb(253, 244, 255);
 }

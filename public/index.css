@@ -1,0 +1,5 @@
+.body {
+    background:linear-gradient(0deg, rgba(7, 7, 7, 0.76), rgba(7, 7, 7, 0.863)), url(background.png);
+    background-size:cover;
+
+}
