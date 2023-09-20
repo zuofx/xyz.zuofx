@@ -1,0 +1,27 @@
+[
+    {
+        "name":"GitHub",
+        "link":"http://github.com/zuofx",
+        "img":"GitHub.png"
+    },
+    {
+        "name":"LinkedIn",
+        "link":"http://linkedin.com/in/huymtruong",
+        "img":"LinkedIn.png"
+    },
+    {
+        "name":"Instagram",
+        "link":"http://instagram.com/zuofx.xyz",
+        "img":"Instagram.png"
+    },
+    {
+        "name":"Resume",
+        "link":"http://google.ca",
+        "img":"Resume.png"
+    },
+    {
+        "name":"Email",
+        "link":"mailto:m.truong@queensu.ca",
+        "img":"Email.png"
+    }
+]
