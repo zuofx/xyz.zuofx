@@ -25,6 +25,10 @@
     width: 50vw;
     /* height: 11.5254237vw; */
     aspect-ratio: 1180/340;
+
+    /* min-width: 354px;
+    min-height: 102px; */
+
     background: url(../assets/link-cards/plain.png) no-repeat;
     /* background-color: red; */
     background-size: auto 100%;
@@ -33,6 +37,8 @@
     width: 55vw;
     margin-top: 10px;
     margin-bottom: 10px;
+
+    filter: drop-shadow(0px 0px 2vw #574ae2);
 }
 
 .linkCardElements {
@@ -54,4 +60,7 @@
 .linkCard:hover .linkCardElements img {
     width: 9vw;
     height: 9vw;
+}
+.linkCard:hover .linkCardElements h1 {
+    font-size: 6.3vw;
 }
