@@ -3,7 +3,9 @@
     height: 50px;
 }
 .Links h1 {
-    color: white;
+    color: rgb(253, 244, 255);
+    margin-top: 2.5vw;
+    font-size: 5vw;
 }
 .linkButtons {
     margin: 0 auto;

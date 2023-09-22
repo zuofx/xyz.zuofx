@@ -33,6 +33,7 @@ const Links = () => {
     if (links != null && links.length > 0) {
         return (
             <div className="Links">
+                <h1>Get in touch!</h1>
                 <div className="linkButtons">
                     {links.map((props) => {
                         return(
