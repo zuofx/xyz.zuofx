@@ -61,7 +61,7 @@ const Home = () => {
                     <div className="ab-card-holder">
                         <div className="ab-card">
                             <img src={menorm}></img>
-                            <p><span>Huy M. Truong</span><br/> Queen's University Computing '26<br/>Specializing in Software Design (SODE)</p>
+                            <p><span>Huy M. Truong</span><br/> Queen's University Computing '26<br/>Specializing in Software Design(SODE)</p>
                         </div>
                     </div>
                 </div>
@@ -102,7 +102,7 @@ const Home = () => {
                 <div className="ab-card-holder-small">
                     <div className="ab-card-small">
                         <img src={menorm}></img>
-                        <p><span>Huy M. Truong</span><br/> Queen's University Computing '26<br/>Specializing in Software Design (SODE)</p>
+                        <p><span>Huy M. Truong</span><br/> Queen's University Computing '26<br/>Specializing in Software Design(SODE)</p>
                     </div>
                 </div>
             </div>
@@ -143,7 +143,7 @@ const Home = () => {
                 <div className="ab-card-holder-smaller">
                     <div className="ab-card-smaller">
                         <img src={menorm}></img>
-                        <p><span>Huy M. Truong</span><br/> Queen's University Computing '26<br/>Specializing in Software Design (SODE)</p>
+                        <p><span>Huy M. Truong</span><br/> Queen's University Computing '26<br/>Specializing in Software Design(SODE)</p>
                     </div>
                 </div>
             </div>
