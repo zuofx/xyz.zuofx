@@ -9,7 +9,7 @@ const Footer = () => {
                 &#169;
             </p>
             <p className="txt">
-                zuofx 2023
+                Huy Truong 2023
             </p>
         </div>
     );
