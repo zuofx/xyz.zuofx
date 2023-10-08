@@ -57,7 +57,7 @@ const App = () => {
     return (
       <div className="App">
         <div className="header">
-          <img className="header-logo" src={logo}/>
+          <img className="header-logo" src={logo} href="/home"/>
           
           <div className="header-inner">
 

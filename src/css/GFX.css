@@ -1,10 +1,3 @@
-.GFX {
-    margin: 0;
-    width: 100%;
-    height: 100vh;
-    background: linear-gradient(0deg, rgba(7, 7, 7, 0.56), rgba(7, 7, 7, 0.663)), url(../assets/gfxbg.png);
-    background-size: cover;
-}
 .WIP {
     margin: 0 auto;
     margin-top: 150px;
@@ -15,4 +8,89 @@
     margin-top: 0 auto;
     font-size: 2vw;
     color: rgb(253, 244, 255);
+}
+.GFX {
+    width: 100%;
+    height: 100vh;
+    /* background: linear-gradient(0deg, rgba(7, 7, 7, 0.56), rgba(7, 7, 7, 0.663)), url(../assets/gfxbg.png);
+    background-size: cover; */
+    margin: 0 auto;
+}
+.GFX h1 {
+    color: rgb(253, 244, 255);
+    font-size: 3vw;
+    margin-top: 2vw;
+}
+.GFX img {
+    width: 15vw;
+    margin: 0 auto;
+    transition: 200ms ease;
+}
+.GFX img:hover {
+    width: 16vw;
+    filter: drop-shadow(0px 0px 10px #574ae2b3);
+    transition: 200ms ease;
+}
+.gfx-title {
+    margin-top: 2vw;
+    margin-bottom: 0vw;
+}
+.gfx-title h1{
+    font-size: 2vw;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.gfx-card {
+    width: 40vw;
+    margin: 0 auto;
+    margin-top: 1vw;
+}
+.gfx-card img {
+    width: 90%;
+    border-style: solid;
+    border-width: 0.5vw;
+    border-color: rgb(253, 244, 255);
+    border-radius: 3vw;
+}
+.gfx-card img:hover {
+    width: 95%;
+    filter: drop-shadow(0px 0px 1vw #574ae2);
+}
+.gfx-card h1 {
+    color: rgb(253, 244, 255);
+}
+
+.carousel {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 auto;
+    transition: 200ms ease;
+}
+
+.button-holder {
+    margin-top: 1vw;
+    transition: 200ms ease;
+}
+.button-l img {
+    width: 15vw;
+    transition: 200ms ease;
+}
+.button-l img:hover {
+    width: 15vw;
+    padding-right: 1vw;
+    transition: 200ms ease;
+}
+.button-r img {
+    width: 15vw;
+    transition: 200ms ease;
+}
+.button-r img:hover {
+    width: 15vw;
+    padding-left: 1vw;
+    transition: 200ms ease;
+}
+
+.spacer {
+    margin-bottom: 500px;
 }

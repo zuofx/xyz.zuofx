@@ -1,6 +1,8 @@
 import '../css/Links.css';
 import React, { useState, useEffect } from 'react';
 
+import textLinks from '../assets/header-buttons/LINKS.png'
+
 const Links = () => {
     const [links, setLinks] = useState([
 
@@ -33,7 +35,12 @@ const Links = () => {
     if (links != null && links.length > 0) {
         return (
             <div className="Links">
-                <h1>Get in touch!</h1>
+                <div>
+                    <img src={textLinks} alt="Links"></img>
+                    <h1>
+                        Get in contact!
+                    </h1>
+                </div>
                 <div className="linkButtons">
                     {links.map((props) => {
                         return(

@@ -4,8 +4,17 @@
 }
 .Links h1 {
     color: rgb(253, 244, 255);
-    margin-top: 2.5vw;
-    font-size: 5vw;
+    margin-top: 0vw;
+    font-size: 3vw;
+}
+.Links img {
+    margin: 0;
+    margin-top: 2vw;
+    width: 25vw;
+}
+.Links img:hover {
+    width: 26vw;
+    filter: drop-shadow(0px 0px 10px #574ae2b3);
 }
 .linkButtons {
     margin: 0 auto;
