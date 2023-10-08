@@ -16,7 +16,7 @@
     transition: 200ms ease;
 }
 .PHOTOS img:hover {
-    width: 16vw;
+    width: 31vw;
     filter: drop-shadow(0px 0px 10px #574ae2b3);
     transition: 200ms ease;
 }
